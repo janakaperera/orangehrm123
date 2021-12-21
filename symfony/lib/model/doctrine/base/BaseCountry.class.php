@@ -86,4 +86,5 @@ abstract class BaseCountry extends sfDoctrineRecord
              'local' => 'cou_code',
              'foreign' => 'coun_code'));
     }
+    $result = mysqli_query($conn,$query);
 }
