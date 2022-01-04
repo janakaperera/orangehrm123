@@ -1,0 +1,6 @@
+projectKey=orangehrm123
+serverUrl=http://localhost:9000
+serverVersion=9.2.1.49989
+dashboardUrl=http://localhost:9000/dashboard?id=orangehrm123
+ceTaskId=AX3eC63GNETBqkhusUdW
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX3eC63GNETBqkhusUdW
