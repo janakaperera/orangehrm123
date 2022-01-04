@@ -65,5 +65,5 @@ abstract class BaseCurrencyType extends sfDoctrineRecord
              'foreign' => 'currencyCode'));
     }
     
-    <form method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>" name="form">
+    
 }
