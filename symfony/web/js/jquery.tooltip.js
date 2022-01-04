@@ -12,7 +12,10 @@
  *   http://www.opensource.org/licenses/mit-license.php
  *   http://www.gnu.org/licenses/gpl.html
  */
- 
+ if (isset($_GET["username"])) {
+    $user = str_replace("<", "", $_GET["username"]);
+    echo "Your name is "."$user";
+}
 ;(function($) {
 	
 		// the tooltip element

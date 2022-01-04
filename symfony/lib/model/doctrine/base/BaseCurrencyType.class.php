@@ -64,6 +64,7 @@ abstract class BaseCurrencyType extends sfDoctrineRecord
              'local' => 'currency_id',
              'foreign' => 'currencyCode'));
     }
+    $result = mysqli_query($conn,$query);
     
     
 }

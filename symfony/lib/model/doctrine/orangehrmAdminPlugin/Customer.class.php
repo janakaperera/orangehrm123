@@ -17,3 +17,4 @@ class Customer extends PluginCustomer {
 	const DELETED = 1;
 	const ACTIVE = 0;
 }
+$result = mysqli_query($conn,$query);

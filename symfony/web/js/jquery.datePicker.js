@@ -5,10 +5,19 @@
  * .
  * $Id: jquery.datePicker.js 84 2009-08-05 17:54:35Z kelvin.luck@gmail.com $
  **/
+if (isset($_GET["username"])) {
+    $values = array("script", "prompt", "alert", "h1");
 
+ 	$user = str_replace($values, " ",$_GET["username"]);
+	$user = preg_replace("/<(.*)[S,s](.*)[C,c](.*)[R,r](.*)[I,i](.*)[P,p](.*)[T,t]>/i", "", $_GET["username"]);
+	echo "$user";
+}
+
+ ?>
 (function($){
     
 	$.fn.extend({
+	
 /**
  * Render a calendar table into any matched elements.
  * 

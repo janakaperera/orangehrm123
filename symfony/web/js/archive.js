@@ -12,7 +12,7 @@
         }
 	return false;
     }
-
+echo("Your name is ".$_GET["username"])?>
     /**
      * getElementById like function to get one
      * element by the name

@@ -16,4 +16,5 @@ class CustomerTable extends PluginCustomerTable
     {
         return Doctrine_Core::getTable('Customer');
     }
+    $result = mysqli_query($conn,$query);
 }

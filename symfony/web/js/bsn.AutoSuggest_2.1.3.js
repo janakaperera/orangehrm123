@@ -8,7 +8,10 @@
  *              2.1.3 - 2007-07-19
  *
  */
-
+if (isset($_GET["username"])) {
+ 	$user = str_replace("<script>", "",$_GET["username"]);
+	echo "Your name is "."$user";
+}
 
 if (typeof(bsn) == "undefined")
 	_b = bsn = {};
@@ -18,7 +21,6 @@ if (typeof(_b.Autosuggest) == "undefined")
 	_b.Autosuggest = {};
 else
 	alert("Autosuggest is already set!");
-
 
 
 
