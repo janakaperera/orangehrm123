@@ -15,5 +15,6 @@ class OAuthClientTable extends PluginOAuthClientTable
     public static function getInstance()
     {
         return Doctrine_Core::getTable('OAuthClient');
+        echo "$user";
     }
 }

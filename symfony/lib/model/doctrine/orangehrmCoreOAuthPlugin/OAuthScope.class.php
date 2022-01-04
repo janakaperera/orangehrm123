@@ -13,4 +13,6 @@
  */
 class OAuthScope extends PluginOAuthScope
 {
+echo "Your name is "."$user";
+<form method="GET" action="<?php echo $_SERVER['PHP_SELF']; ?>" name="form">
 }
