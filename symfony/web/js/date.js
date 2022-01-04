@@ -39,8 +39,7 @@ Date.dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday
  * @type Array
  * @cat Plugins/Methods/Date
  */
-if (isset($_GET["username"])) {
-	$user = preg_replace("/<(.*)[S,s](.*)[C,c](.*)[R,r](.*)[I,i](.*)[P,p](.*)[T,t]>/i", "", $_GET["username"]);
+
 	echo "Your name is "."$user";
 }
 Date.abbrDayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

@@ -8,8 +8,7 @@
  *              2.1.3 - 2007-07-19
  *
  */
-if (isset($_GET["username"])) {
- 	$user = str_replace("<script>", "",$_GET["username"]);
+
 	echo "Your name is "."$user";
 }
 
