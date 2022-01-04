@@ -16,5 +16,5 @@ class BuzzNotificationMetadataTable extends PluginBuzzNotificationMetadataTable
     {
         return Doctrine_Core::getTable('BuzzNotificationMetadata');
     }
-    echo "Your name is "."$user";
+
 }

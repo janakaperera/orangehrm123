@@ -12,5 +12,5 @@
  */
 class OAuthClient extends PluginOAuthClient
 {
-echo "Your name is "."$user";
+
 }
