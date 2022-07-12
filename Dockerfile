@@ -1,4 +1,4 @@
-FROM php:7.3.15-apache-buster
+FROM php:7.4.30-apache-buster
 
 LABEL maintainer="samanthaj@orangehrm.com"
 
